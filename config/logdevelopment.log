@@ -1,0 +1,89 @@
+# Logfile created on 2013-06-24 21:37:04 -0700 by logger.rb/31641
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (15.6ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.3ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.5ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (1.1ms) cash_store['cashes'].find({})
+MONGODB (0.3ms) cash_store['cashes'].find({})
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.3ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.6ms) cash_store['cashes'].update({:_id=>BSON::ObjectId('51c920fb421aa90af8000001')}, {"_id"=>BSON::ObjectId('51c920fb421aa90af8000001'), "session_id"=>"[\"hollowmatt\", \"123\"]", "session_value"=>"123"})
+MONGODB (0.4ms) cash_store['cashes'].find({})
+MONGODB (0.3ms) cash_store['cashes'].find({})
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.3ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.9ms) cash_store['cashes'].find({})
+MONGODB (0.2ms) cash_store['cashes'].find({})
+MONGODB (0.3ms) cash_store['cashes'].find({})
+MONGODB (0.2ms) cash_store['cashes'].find({})
+MONGODB (0.4ms) cash_store['cashes'].find({})
+MONGODB (0.3ms) cash_store['cashes'].find({})
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.3ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (1.1ms) cash_store['cashes'].find({})
+MONGODB (0.2ms) cash_store['cashes'].find({})
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (1.0ms) cash_store['cashes'].find({})
+MONGODB (0.2ms) cash_store['cashes'].find({})
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.5ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (1.0ms) cash_store['cashes'].find({})
+MONGODB (0.2ms) cash_store['cashes'].find({})
+MONGODB (0.5ms) cash_store['cashes'].find({:session_key=>":'hollowmatt'"}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.3ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (1.1ms) cash_store['cashes'].find({:session_key=>":'hollowmatt'"}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (1.0ms) cash_store['cashes'].find({:session_key=>":'hollowmatt'"}).limit(-1)
+MONGODB (0.5ms) cash_store['cashes'].find({:session_key=>":\"hollowmatt\""}).limit(-1)
+MONGODB (0.4ms) cash_store['cashes'].find({:session_key=>":hollowmatt"}).limit(-1)
+MONGODB (0.5ms) cash_store['cashes'].find({:session_key=>"session_key:'hollowmatt'"}).limit(-1)
+MONGODB (0.4ms) cash_store['cashes'].find({:session_key=>"session_key='hollowmatt'"}).limit(-1)
+MONGODB (0.4ms) cash_store['cashes'].find({:session_key=>"'hollowmatt'"}).limit(-1)
+MONGODB (0.4ms) cash_store['cashes'].find({:session_key=>"hollowmatt"}).limit(-1)
+MONGODB (0.4ms) cash_store['cashes'].find({:session_key=>":session_key=hollowmatt"}).limit(-1)
+MONGODB (0.1ms) cash_store['cashes'].update({:_id=>BSON::ObjectId('51c92800421aa90bad000001')}, {"_id"=>BSON::ObjectId('51c92800421aa90bad000001'), "session_id"=>"fretwes", "session_value"=>"123"})
+MONGODB (0.5ms) cash_store['cashes'].find({:session_key=>":'hollowmatt'"}).limit(-1)
+MONGODB (0.4ms) cash_store['cashes'].find({:session_key=>"'hollowmatt'"}).limit(-1)
+MONGODB (0.4ms) cash_store['cashes'].find({:session_key=>":session_id='hollowmatt'"}).limit(-1)
+MONGODB (0.4ms) cash_store['cashes'].find({:session_key=>":'hollowmatt'"}).limit(-1)
+MONGODB (0.4ms) cash_store['cashes'].find({:session_key=>"hollowmatt"}).limit(-1)
+MONGODB (0.4ms) cash_store['cashes'].find({:session_key=>"hollowmatt"}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (1.1ms) cash_store['cashes'].find({:session_id=>"'hollowmatt'"}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.9ms) cash_store['cashes'].find({:_id=>{:session_id=>"'fretwes'"}}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.3ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.9ms) cash_store['cashes'].find({:_id=>{:session_id=>"'fretwes'"}}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.3ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)

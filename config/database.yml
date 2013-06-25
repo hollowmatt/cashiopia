@@ -1,0 +1,7 @@
+development:
+  host: localhost
+  port: 27017
+  database: cash_store
+  logfile: development.log
+
+environment: development
