@@ -87,3 +87,24 @@ MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
 MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
 MONGODB (0.3ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
 MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (42.5ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.3ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.6ms) cash_store['cashes'].update({:_id=>BSON::ObjectId('51ca6992421aa90567000001')}, {"_id"=>BSON::ObjectId('51ca6992421aa90567000001'), "session_id"=>"pepper", "session_value"=>"123"})
+MONGODB (25.3ms) cash_store['cashes'].find({:session_id=>"pepper"}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.4ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (0.2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (1.0ms) cash_store['cashes'].find({:session_id=>"pepper"}).limit(-1)
+MONGODB (0.1ms) cash_store['cashes'].remove({:_id=>{"$in"=>[BSON::ObjectId('51ca6992421aa90567000001')]}})
+MONGODB (0.1ms) cash_store['cashes'].update({:_id=>BSON::ObjectId('51ca6b03421aa9057f000002')}, {"_id"=>BSON::ObjectId('51ca6b03421aa9057f000002'), "session_id"=>"pepper", "session_value"=>"123"})
+MONGODB (0.4ms) cash_store['cashes'].find({:session_id=>"pepper"}).limit(-1)
+MONGODB (0.5ms) cash_store['cashes'].find({:session_id=>"pepper"}).limit(-1)
+MONGODB (0.1ms) cash_store['cashes'].remove({:_id=>{"$in"=>[BSON::ObjectId('51ca6b03421aa9057f000002')]}})

@@ -6,3 +6,7 @@ gem 'rack'
 gem 'mongo_mapper'
 gem 'bson_ext'
 gem 'log_buddy'
+
+group :development do
+  gem 'yard'
+end

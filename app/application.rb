@@ -15,6 +15,7 @@ class Bank < Sinatra::Base
   #put something into the cache
   post '/cashin' do
     cash = Cash.new(:session_id => params[:session_id], :session_value => params[:session_value])
+    puts cash
     if cash.save
       redirect '/'
     else
@@ -24,13 +25,14 @@ class Bank < Sinatra::Base
 
   #get something from the cache
   get '/cashout' do
-    cash = Cash.where("session_id" => params[:session_key])
-    puts cash.next.inspect
+    cash = Cash.find_by_session_id(params[:session_key])
+    puts cash
+    "#{cash.session_value}"
   end
 
   #delete something from the cache
-  delete '/losecash/:session_key' do
-    cash = Cash.where(:session_id => params[:session_key])
+  delete '/losecash' do
+    cash = Cash.find_by_session_id(params[:session_key])
     if cash.delete
       "200"
     else
